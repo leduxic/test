@@ -7,55 +7,52 @@
   <link rel="icon" href="favicon.png" type="image/png">
   <style>
     body {
-      margin: 0;
-      padding: 20px;
-      background-color: #000;
-      color: #fff;
-      font-family: monospace;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      min-height: 100vh;
-    }
-    pre {
-      text-align: center;
-      white-space: pre-wrap;
-      word-break: break-word;
-    }
-    .terminal {
-      text-align: center;
-      margin-top: 20px;
-      font-size: 0.9em;
-      color: #ccc;
-    }
-    footer {
-      position: fixed;
-      bottom: 10px;
-      width: 100%;
-      text-align: center;
-      font-size: 0.75em;
-      color: #ccc;
-    }
-    .bottom-left, .bottom-right {
-      position: fixed;
-      bottom: 10px;
-      font-size: 0.75em;
-    }
-    .bottom-left {
-      left: 10px;
-    }
-    .bottom-right {
-      right: 10px;
-    }
-    a {
-      color: #ccc;
-      margin-right: 15px;
-      text-decoration: none;
-    }
-    a:hover {
-      text-decoration: underline;
-    }
+  background-color: #000000;
+  color: #ffffff;
+  font-family: 'Courier New', Courier, monospace;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  text-align: center;
+}
+
+.container {
+  width: 90%;
+  max-width: 900px;
+  padding: 40px;
+}
+
+.logo {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 40px;
+}
+
+.boot-sequence {
+  font-size: 1.25rem;
+  margin-bottom: 40px;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  font-size: 1.5rem;
+  margin-top: 40px;
+}
+
+.nav-links a {
+  color: #ffffff;
+  text-decoration: none;
+  transition: color 0.2s ease-in-out;
+}
+
+.nav-links a:hover {
+  color: #00ff00;
+}
   </style>
 </head>
 <body>
